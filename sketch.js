@@ -89,7 +89,7 @@ function draw() {
 
     kangaroo.collide(invisibleGround);
     //escreva uma condição para que o estado do jogo mude para end (fim).
-    if(kanaroo.isTouching(obstaclesGroup){
+    if(kangaroo.isTouching(obstaclesGroup)){
       collidedSound.play();
       gameState = END;
     }
